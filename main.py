@@ -1036,7 +1036,7 @@ def restart_driver():
     random_user_agent = random.choice(user_agents)
     options.add_argument(f'user-agent={random_user_agent}')
 
-    browser = webdriver.Chrome(options=options)
+    browser = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options=options)
     browser.maximize_window()
 
 
