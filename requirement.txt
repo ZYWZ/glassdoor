@@ -2,3 +2,6 @@ pandas
 xlrd
 bs4
 selenium
+openpyxl
+pymongo[srv]
+certifi
