@@ -3,5 +3,5 @@ xlrd
 bs4
 selenium
 openpyxl
-pymongo[srv]
+pymongo
 certifi
